@@ -1,0 +1,33 @@
+table h2{
+    text-align: center;
+    float: none;
+}
+@media screen and (max-width: 390px) {
+    *{
+      float:none;
+    }
+    #rodape{
+      width: 85%;
+    }
+    #links a{
+      
+      text-decoration: none;
+      color: black;
+      display: inline-block;
+      padding:0px;
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px;
+      font-weight: bold;
+      margin-left:0px;
+      margin-top: 0px;
+  }
+  .espaco{
+      margin-left: 8px;
+  }
+  }
+  @media screen and (max-width: 1000px) {
+   hr{
+    width: 90%;
+    margin:auto;
+   }
+  }
